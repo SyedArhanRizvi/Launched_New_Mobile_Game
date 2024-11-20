@@ -1,0 +1,87 @@
+export const connectedTwoWords = [
+  ['Canada', 'Ottawa'],
+  ['Australia', 'Canberra'],
+  ['Brazil', 'Brasilia'],
+  ['Germany', 'Berlin'],
+  ['France', 'Paris'],
+  ['Argentina', 'Buenos Aires'],
+  ['Japan', 'Kyoto'],
+  ['South Korea', 'Seoul'],
+  ['Egypt', 'Cairo'],
+  ['Russia', 'Moscow'],
+  ['China', 'Beijing'],
+  ['United States', 'Washington D.C.'],
+  ['Mexico', 'Mexico City'],
+  ['Italy', 'Florence'],
+  ['India', 'New Delhi'],
+  ['Spain', 'Madrid'],
+  ['United Kingdom', 'London'],
+  ['South Africa', 'Pretoria'],
+  ['Turkey', 'Ankara'],
+  ['Chile', 'Santiago'],
+  ['Greece', 'Athens'],
+  ['Sweden', 'Stockholm'],
+  ['Norway', 'Oslo'],
+  ['Finland', 'Helsinki'],
+  ['Denmark', 'Copenhagen'],
+  ['Poland', 'Warsaw'],
+  ['Czech Republic', 'Prague'],
+  ['Hungary', 'Budapest'],
+];
+
+  
+export const connectedThreeWords = [
+  ['Basil', 'Oregano', 'Parsley'],
+  ['Latte', 'Mocha', 'Cappuccino'],
+  ['Shark', 'Whale', 'Dolphin'],
+  ['City', 'Suburb', 'Countryside'],
+  ['Palette', 'Canvas', 'Brush'],
+  ['Classical', 'Jazz', 'Blues'],
+  ['Swimming', 'Cycling', 'Running'],
+  ['Desert', 'Forest', 'Rainforest'],
+  ['Message', 'Letter', 'Call'],
+  ['Tornado', 'Volcano', 'Earthquake'],
+  ['Sight', 'Sound', 'Touch'],
+  ['Future', 'Present', 'Past'],
+  ['Science', 'Math', 'History'],
+  ['Spring', 'Winter', 'Autumn'],
+  ['Soccer', 'Basketball', 'Baseball'],
+  ['Paper', 'Pen', 'Pencil'],
+  ['Knife', 'Spoon', 'Fork'],
+  ['Shirt', 'Pants', 'Jacket'],
+  ['Tiger', 'Leopard', 'Jaguar'],
+  ['Tulip', 'Rose', 'Lily'],
+  ['Potato', 'Onion', 'Carrot'],
+  ['Smoothie', 'Juice', 'Milkshake'],
+  ['Butter', 'Cheese', 'Yogurt'],
+  ['Squirtle', 'Bulbasaur', 'Charmander'],
+  ['Iron Man', 'Thor', 'Captain America'],
+  ['Elsa', 'Anna', 'Olaf'],
+];
+
+  
+export const connectedFourWords = [
+  ['Cinnamon', 'Clove', 'Nutmeg', 'Cardamom'],
+  ['Flute', 'Violin', 'Trumpet', 'Guitar'],
+  ['Mercury', 'Venus', 'Earth', 'Mars'],
+  ['Monday', 'Wednesday', 'Friday', 'Sunday'],
+  ['Red', 'Green', 'Blue', 'Yellow'],
+  ['Sun', 'Cloud', 'Rain', 'Wind'],
+  ['Hand', 'Leg', 'Head', 'Foot'],
+  ['Mango', 'Pineapple', 'Papaya', 'Watermelon'],
+  ['Geography', 'Literature', 'Mathematics', 'History'],
+  ['Bus', 'Train', 'Airplane', 'Boat'],
+  ['Smartphone', 'Tablet', 'Laptop', 'Headphones'],
+  ['Pen', 'Paper', 'Book', 'Pencil'],
+  ['Hat', 'Scarf', 'Gloves', 'Boots'],
+  ['Ruler', 'Compass', 'Protractor', 'Eraser'],
+];
+
+  
+export const connectedWords = new Map([
+  [2, connectedTwoWords],
+  [3, connectedThreeWords],
+  [4, connectedFourWords],
+]);
+
+  

@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5d7b921aa20ea468a889fb20/1568380647526-YX9J52FU8INU1YFJS65P/njPhhkca.gif"); /* Light background color */
+  background-position: center;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 20px;
+  background-color: #375626; /* White background for grid */
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.itemBtn {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #333;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.itemBtn:hover {
+  background-color: #f0f0f0; /* Light hover effect */
+  transform: translateY(-5px);
+}
+
+.itemBtn:active {
+  background-color: #ddd; /* Darker shade on click */
+}
+
+.highlight {
+  background-color: #ff7f50; /* Highlight selected items with coral color */
+  color: white;
+}
+
+.success {
+  background-color: #4caf50; /* Green for success */
+  color: white;
+}
+
+.failure {
+  background-color: #f44336; /* Red for failure */
+  color: white;
+}
+
+.reset {
+  background-color: #1a6d33; /* Blue reset button */
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reset:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.reset:active {
+  background-color: #003f77; /* Even darker blue when pressed */
+}
+
+.center {
+  text-align: center;
+}
+
+.text-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9800; /* Orange background for title section */
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr; /* 1 column on mobile devices */
+  }
+  .itemBtn {
+    font-size: 1rem; /* Slightly smaller font size on smaller screens */
+    padding: 12px 8px; /* Adjust padding */
+  }
+  .reset {
+    padding: 0.5rem 1rem; /* Adjust padding for reset button */
+  }
+}
